@@ -1,0 +1,5 @@
+[network_server]
+enabled_regions=["US915"]  # Replace with your region (e.g., EU868, AS923)
+
+[postgresql]
+dsn="postgres://chirpstack_ns:chirpstack_ns@postgresql/chirpstack_ns?sslmode=disable"

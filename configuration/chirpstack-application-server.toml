@@ -1,0 +1,8 @@
+[application_server]
+public_host="localhost:8080"
+
+[postgresql]
+dsn="postgres://chirpstack_as:chirpstack_as@postgresql/chirpstack_as?sslmode=disable"
+
+[redis]
+servers=["redis:6379"]
